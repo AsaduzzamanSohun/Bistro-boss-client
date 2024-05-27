@@ -9,9 +9,7 @@ const ManageItems = () => {
     const axiosSecure = useAxiosSecure();
 
 
-    const handleEditUser = (item) => {
-        // 
-    }
+
 
 
 
@@ -88,7 +86,7 @@ const ManageItems = () => {
                                     <td>
                                         <Link to={`/dashboard/updateItems/${item._id}`}>
                                             <button
-                                                onClick={() => handleEditUser(item)}
+                                                
                                                 className="bg-yellow-300 p-2">
                                                 Edt
                                             </button>
